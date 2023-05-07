@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Javascript</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+</head>
+  
+<body>
+   
+    <h1 class="text-bg-success text-center"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag-check-fill text-light pb-2" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+      </svg>  Products</h1>
+        <div class="w-75 mx-auto py-4">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" class="form-control my-2" >
+
+            <label for="productPrice">Product Price:</label>
+            <input type="number" id="productPrice" class="form-control my-2" >
+
+            <label for="productCategory">Product Category:</label>
+            <input type="text" id="productCategory" class="form-control my-2" >
+
+            <label for="productInfo">Product Description:</label>
+            <textarea type="text" id="productInfo" class="form-control my-2" ></textarea>
+
+                <button id="addButton" class="btn btn-success" onclick="addProduct()" >Add Product</button>
+
+        </div>
+        <div class="w-75 mx-auto py-3">
+            <table class="table">
+                <thead>
+                   <th>Index</th>
+                   <th>Product Name</th>
+                   <th>Product Price:</th>
+                   <th>Product Category:</th>
+                   <th>Product Description</th>
+                   <th>Delete</th>
+                   <th>Update</th>
+                </thead>
+                <tbody id="tablerow">
+                
+                </tbody>
+           </table>
+        </div>
+            <script src="script.js"></script>
+            <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+  
+</html>
