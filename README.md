@@ -3,5 +3,5 @@ this website to control your products add, delete,update and display using javas
 
 # Demo
 to run the project download file and bootstrap-5.3.0
-[![Watch the video](demo.mp4)](demo.mp4)
+[![Watch the video](https://github.com/Dinaabdalla2018/Products_JS/blob/main/Demo.mp4)](https://github.com/Dinaabdalla2018/Products_JS/blob/main/Demo.mp4)
 
